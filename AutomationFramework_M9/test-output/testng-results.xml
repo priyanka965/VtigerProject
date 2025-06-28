@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-26T12:29:10 IST" name="Suite" finished-at="2025-06-26T12:30:31 IST" duration-ms="80701">
+    <groups>
+      <group name="Regression">
+        <method signature="ToCreateOrgWithIndustryTest.toCreateOrgWithIndustry_001()[pri:0, instance:organizationTest.ToCreateOrgWithIndustryTest@4009e306]" name="toCreateOrgWithIndustry_001" class="organizationTest.ToCreateOrgWithIndustryTest"/>
+        <method signature="ToCreateOrgWithTypeTest.toCreateOrgWithTypeTest_003()[pri:0, instance:organizationTest.ToCreateOrgWithTypeTest@305b7c14]" name="toCreateOrgWithTypeTest_003" class="organizationTest.ToCreateOrgWithTypeTest"/>
+      </group> <!-- Regression -->
+      <group name="smoke">
+        <method signature="ToCreateContactWithOrgTest.toCreateContactWithOrg_002()[pri:0, instance:contactTests.ToCreateContactWithOrgTest@6913c1fb]" name="toCreateContactWithOrg_002" class="contactTests.ToCreateContactWithOrgTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-06-26T12:29:10 IST" name="Test" finished-at="2025-06-26T12:30:31 IST" duration-ms="80701">
+      <class name="organizationTest.ToCreateOrgWithTypeTest">
+        <test-method is-config="true" signature="beforeClassConfig()[pri:0, instance:organizationTest.ToCreateOrgWithTypeTest@305b7c14]" started-at="2025-06-26T12:29:59 IST" name="beforeClassConfig" finished-at="2025-06-26T12:30:00 IST" duration-ms="1686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassConfig -->
+        <test-method is-config="true" signature="beforeMethodConfig()[pri:0, instance:organizationTest.ToCreateOrgWithTypeTest@305b7c14]" started-at="2025-06-26T12:30:00 IST" name="beforeMethodConfig" finished-at="2025-06-26T12:30:00 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodConfig -->
+        <test-method signature="toCreateOrgWithTypeTest_003()[pri:0, instance:organizationTest.ToCreateOrgWithTypeTest@305b7c14]" started-at="2025-06-26T12:30:00 IST" name="toCreateOrgWithTypeTest_003" finished-at="2025-06-26T12:30:13 IST" duration-ms="12404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCreateOrgWithTypeTest_003 -->
+        <test-method is-config="true" signature="afterMethodConfig()[pri:0, instance:organizationTest.ToCreateOrgWithTypeTest@305b7c14]" started-at="2025-06-26T12:30:13 IST" name="afterMethodConfig" finished-at="2025-06-26T12:30:14 IST" duration-ms="1449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodConfig -->
+        <test-method is-config="true" signature="afterClassConfig()[pri:0, instance:organizationTest.ToCreateOrgWithTypeTest@305b7c14]" started-at="2025-06-26T12:30:14 IST" name="afterClassConfig" finished-at="2025-06-26T12:30:14 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassConfig -->
+      </class> <!-- organizationTest.ToCreateOrgWithTypeTest -->
+      <class name="organizationTest.ToCreateOrgTest">
+        <test-method is-config="true" signature="beforeClassConfig()[pri:0, instance:organizationTest.ToCreateOrgTest@4988d8b8]" started-at="2025-06-26T12:29:28 IST" name="beforeClassConfig" finished-at="2025-06-26T12:29:30 IST" duration-ms="1714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassConfig -->
+        <test-method is-config="true" signature="beforeMethodConfig()[pri:0, instance:organizationTest.ToCreateOrgTest@4988d8b8]" started-at="2025-06-26T12:29:30 IST" name="beforeMethodConfig" finished-at="2025-06-26T12:29:30 IST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodConfig -->
+        <test-method signature="toCreateOrg_001()[pri:0, instance:organizationTest.ToCreateOrgTest@4988d8b8]" started-at="2025-06-26T12:29:30 IST" name="toCreateOrg_001" finished-at="2025-06-26T12:29:42 IST" duration-ms="11955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCreateOrg_001 -->
+        <test-method is-config="true" signature="afterMethodConfig()[pri:0, instance:organizationTest.ToCreateOrgTest@4988d8b8]" started-at="2025-06-26T12:29:42 IST" name="afterMethodConfig" finished-at="2025-06-26T12:29:43 IST" duration-ms="1346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodConfig -->
+        <test-method is-config="true" signature="afterClassConfig()[pri:0, instance:organizationTest.ToCreateOrgTest@4988d8b8]" started-at="2025-06-26T12:29:43 IST" name="afterClassConfig" finished-at="2025-06-26T12:29:43 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassConfig -->
+      </class> <!-- organizationTest.ToCreateOrgTest -->
+      <class name="organizationTest.ToCreateOrgWithIndustryTest">
+        <test-method is-config="true" signature="beforeSuiteConfig()[pri:0, instance:organizationTest.ToCreateOrgWithIndustryTest@4009e306]" started-at="2025-06-26T12:29:10 IST" name="beforeSuiteConfig" finished-at="2025-06-26T12:29:10 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteConfig -->
+        <test-method is-config="true" signature="beforeClassConfig()[pri:0, instance:organizationTest.ToCreateOrgWithIndustryTest@4009e306]" started-at="2025-06-26T12:29:10 IST" name="beforeClassConfig" finished-at="2025-06-26T12:29:14 IST" duration-ms="3764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassConfig -->
+        <test-method is-config="true" signature="beforeMethodConfig()[pri:0, instance:organizationTest.ToCreateOrgWithIndustryTest@4009e306]" started-at="2025-06-26T12:29:14 IST" name="beforeMethodConfig" finished-at="2025-06-26T12:29:17 IST" duration-ms="2466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodConfig -->
+        <test-method signature="toCreateOrgWithIndustry_001()[pri:0, instance:organizationTest.ToCreateOrgWithIndustryTest@4009e306]" started-at="2025-06-26T12:29:17 IST" name="toCreateOrgWithIndustry_001" finished-at="2025-06-26T12:29:26 IST" duration-ms="9782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCreateOrgWithIndustry_001 -->
+        <test-method is-config="true" signature="afterMethodConfig()[pri:0, instance:organizationTest.ToCreateOrgWithIndustryTest@4009e306]" started-at="2025-06-26T12:29:26 IST" name="afterMethodConfig" finished-at="2025-06-26T12:29:28 IST" duration-ms="1390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodConfig -->
+        <test-method is-config="true" signature="afterClassConfig()[pri:0, instance:organizationTest.ToCreateOrgWithIndustryTest@4009e306]" started-at="2025-06-26T12:29:28 IST" name="afterClassConfig" finished-at="2025-06-26T12:29:28 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassConfig -->
+        <test-method is-config="true" signature="afterSuiteConfig()[pri:0, instance:organizationTest.ToCreateOrgWithIndustryTest@4009e306]" started-at="2025-06-26T12:30:31 IST" name="afterSuiteConfig" finished-at="2025-06-26T12:30:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteConfig -->
+      </class> <!-- organizationTest.ToCreateOrgWithIndustryTest -->
+      <class name="contactTests.ToCreateContactWithOrgTest">
+        <test-method is-config="true" signature="beforeClassConfig()[pri:0, instance:contactTests.ToCreateContactWithOrgTest@6913c1fb]" started-at="2025-06-26T12:30:14 IST" name="beforeClassConfig" finished-at="2025-06-26T12:30:16 IST" duration-ms="1804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassConfig -->
+        <test-method is-config="true" signature="beforeMethodConfig()[pri:0, instance:contactTests.ToCreateContactWithOrgTest@6913c1fb]" started-at="2025-06-26T12:30:16 IST" name="beforeMethodConfig" finished-at="2025-06-26T12:30:16 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodConfig -->
+        <test-method signature="toCreateContactWithOrg_002()[pri:0, instance:contactTests.ToCreateContactWithOrgTest@6913c1fb]" started-at="2025-06-26T12:30:16 IST" name="toCreateContactWithOrg_002" finished-at="2025-06-26T12:30:29 IST" duration-ms="13154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCreateContactWithOrg_002 -->
+        <test-method is-config="true" signature="afterMethodConfig()[pri:0, instance:contactTests.ToCreateContactWithOrgTest@6913c1fb]" started-at="2025-06-26T12:30:29 IST" name="afterMethodConfig" finished-at="2025-06-26T12:30:31 IST" duration-ms="1329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodConfig -->
+        <test-method is-config="true" signature="afterClassConfig()[pri:0, instance:contactTests.ToCreateContactWithOrgTest@6913c1fb]" started-at="2025-06-26T12:30:31 IST" name="afterClassConfig" finished-at="2025-06-26T12:30:31 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassConfig -->
+      </class> <!-- contactTests.ToCreateContactWithOrgTest -->
+      <class name="contactTests.ToCreateContactTest">
+        <test-method is-config="true" signature="beforeClassConfig()[pri:0, instance:contactTests.ToCreateContactTest@c0c2f8d]" started-at="2025-06-26T12:29:43 IST" name="beforeClassConfig" finished-at="2025-06-26T12:29:45 IST" duration-ms="1723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassConfig -->
+        <test-method is-config="true" signature="beforeMethodConfig()[pri:0, instance:contactTests.ToCreateContactTest@c0c2f8d]" started-at="2025-06-26T12:29:45 IST" name="beforeMethodConfig" finished-at="2025-06-26T12:29:45 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodConfig -->
+        <test-method signature="toCreateContact_001()[pri:0, instance:contactTests.ToCreateContactTest@c0c2f8d]" started-at="2025-06-26T12:29:45 IST" name="toCreateContact_001" finished-at="2025-06-26T12:29:57 IST" duration-ms="11675" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at contactTests.ToCreateContactTest.toCreateContact_001(ToCreateContactTest.java:31)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCreateContact_001 -->
+        <test-method is-config="true" signature="afterMethodConfig()[pri:0, instance:contactTests.ToCreateContactTest@c0c2f8d]" started-at="2025-06-26T12:29:57 IST" name="afterMethodConfig" finished-at="2025-06-26T12:29:58 IST" duration-ms="1490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodConfig -->
+        <test-method is-config="true" signature="afterClassConfig()[pri:0, instance:contactTests.ToCreateContactTest@c0c2f8d]" started-at="2025-06-26T12:29:58 IST" name="afterClassConfig" finished-at="2025-06-26T12:29:59 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassConfig -->
+      </class> <!-- contactTests.ToCreateContactTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
